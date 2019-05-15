@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"study/average"
-	"study/datafile"
+
+	"github.com/prasanthu/go-learn/average"
+	"github.com/prasanthu/go-learn/datafile"
 )
 
 func main() {

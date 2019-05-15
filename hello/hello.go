@@ -5,7 +5,8 @@ import (
 	"log"
 	"os"
 	"strconv"
-	"study/average"
+
+	"github.com/prasanthu/go-learn/average"
 )
 
 func main() {
