@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package arrays
 
 func New2DSlice(x, y int) [][]int {
 	var a = make([][]int, y)
@@ -17,16 +15,5 @@ func IdentityFill(a [][]int) {
 			a[i][j] = 0
 		}
 		a[i][i] = 1
-	}
-}
-
-func main() {
-	dd := New2DSlice(5, 5)
-	IdentityFill(dd)
-	for k := range dd {
-		for _, v := range dd[k] {
-			fmt.Printf("%d ", v)
-		}
-		fmt.Println()
 	}
 }
